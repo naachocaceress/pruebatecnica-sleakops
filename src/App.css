@@ -1,0 +1,29 @@
+:root {
+  --primero: #90cdf4;
+  --segundo: #1a202c;
+  --tercero: #171923;
+  --cuarto: #2b6cb0;
+  --quinto: #2d3748;
+
+  @font-face {
+    font-family: "Inter";
+    src: url("../public/Inter_18pt-Regular.ttf") format("truetype");
+  }
+
+  --font: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  background-color: var(--quinto);
+}
+
+option {
+  background-color: var(--segundo);
+  color: white;
+}
+
+option:hover {
+  color: var(--primero);
+}
+
