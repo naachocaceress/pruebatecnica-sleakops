@@ -14,7 +14,7 @@ Puede ser con npm o pnpm:
 
 ```sh
 # Clona el repositorio
-git clone https://github.com/
+git clone https://github.com/naachocaceress/pruebatecnica-sleakops.git
 cd pruebatecnica-sleakops
 
 # Instala las dependencias
@@ -27,7 +27,7 @@ En el archivo `vite.config.ts` agregar en "target" la url del json de referencia
 pnpm run dev
 ```
 
-Luego, abre `http://localhost:3000/` en tu navegador.
+Luego, abre `http://localhost:3000/` en tu navegador (o el necesario).
 
 ## Tecnologías Utilizadas
 - [React](https://reactjs.org/)
